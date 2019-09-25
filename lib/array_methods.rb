@@ -1,16 +1,16 @@
 def find_element_index(array, value_to_find)
-  arraylength = array.length
+  array_length = array.length
   index = 0
-  arraylength.times |index| {
+  array_length.times |index| {
     if array[index] = value_to_find
       return index
     end
     index += 1
-    
+  end
   }
 
 def find_max_value(array)
-  # Add your solution here
+  largest_number = 0
 end
 
 def find_min_value(array)
