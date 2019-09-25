@@ -10,7 +10,7 @@ end
 def find_max_value(array)
   largest_number = array[0]
   array.length.times { |index|
-    if largest_number > array[index]
+    if largest_number < array[index]
       largest_number = array[index]
     end
   }
@@ -20,7 +20,7 @@ end
 def find_min_value(array)
   smallest_number = array[0]
   array.length.times { |index|
-    if smallest_number < array[index]
+    if smallest_number > array[index]
       smallest_number = array[index]
     end
   }
